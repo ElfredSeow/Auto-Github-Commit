@@ -5,8 +5,7 @@
   "main": "index.js",
   "bin": {
     "repo-autosync": "./index.js"
-  }
-},
+  },
   "publishConfig": {
     "access": "public"
   },
