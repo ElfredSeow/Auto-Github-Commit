@@ -39,7 +39,7 @@ Execute the tool via `npx`:
 ```bash
 npx @elfredseow/auto-commit
 ```
-*(Note: If you published under a different package name, replace `@elfredseow/auto-commit` with your actual package name).*
+*(Note: If you published under a different package name, replace `auto-commit` with your actual package name).*
 
 ### Step 3: Answer the Setup Prompts (First Time Only)
 If this is your first time running the tool in this folder, it will guide you through a quick setup:
