@@ -81,8 +81,8 @@ To stop the auto-syncing, simply go to the terminal running the process and pres
 ---
 
 ## 👨‍💻 Author
-Built by [Your Name](https://github.com/yourusername)  
-*Your short bio here.*
+Built by [Manfred Siew (ElfredSeow)](https://github.com/ElfredSeow)  
+*Aspiring Software Engineer passionate about building impactful projects and developer tools.*
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
