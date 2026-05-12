@@ -44,7 +44,7 @@ npx auto-commit
 ### Step 3: Answer the Setup Prompts (First Time Only)
 If this is your first time running the tool in this folder, it will guide you through a quick setup:
 1. Paste your **GitHub Repository URL** (e.g., `https://github.com/Username/Repo.git`).
-2. Type the **Branch Name** you want to sync to (defaults to `branchlop`).
+2. Type the **Branch Name** you want to sync to (defaults to `branch name`).
 
 ### Step 4: Code!
 Leave the terminal open in the background. Every time you hit `Ctrl + S` (Save), the tool will automatically sync your changes to GitHub.
