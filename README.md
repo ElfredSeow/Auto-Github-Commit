@@ -37,7 +37,7 @@ cd path/to/your/project
 ### Step 2: Run the Plugin
 Execute the tool via `npx`:
 ```bash
-npx @elfredseow/auto-commit
+npx auto-commit
 ```
 *(Note: If you published under a different package name, replace `auto-commit` with your actual package name).*
 

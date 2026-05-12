@@ -19,7 +19,7 @@
     "git",
     "productivity"
   ],
-  "author": "Manfred Siew",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "chokidar": "^3.5.3"
