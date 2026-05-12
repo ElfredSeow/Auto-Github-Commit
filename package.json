@@ -1,27 +1,9 @@
 {
-  "name": "auto-commit",
-  "version": "1.0.1",
-  "description": "Automatically commit and push edits to the develop branch.",
+  "name": "repo-autosync", 
+  "version": "1.0.0",
+  "description": "A fool-proof auto-commit tool.",
   "main": "index.js",
   "bin": {
-    "auto-commit": "index.js"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yourusername/your-repo-name.git"
-  },
-  "keywords": [
-    "github",
-    "automation",
-    "git",
-    "productivity"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "chokidar": "^3.5.3"
+    "repo-autosync": "./index.js"
   }
 }
