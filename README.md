@@ -37,14 +37,14 @@ cd path/to/your/project
 ### Step 2: Run the Plugin
 Execute the tool via `npx`:
 ```bash
-npx auto-commit
+npx repo-autosync
 ```
-*(Note: If you published under a different package name, replace `auto-commit` with your actual package name).*
+*(Note: If you published under a different unique package name, replace `repo-autosync` with your actual package name).*
 
 ### Step 3: Answer the Setup Prompts (First Time Only)
 If this is your first time running the tool in this folder, it will guide you through a quick setup:
 1. Paste your **GitHub Repository URL** (e.g., `https://github.com/Username/Repo.git`).
-2. Type the **Branch Name** you want to sync to (defaults to `branch name`).
+2. Type the **Branch Name** you want to sync to (defaults to `develop`).
 
 ### Step 4: Code!
 Leave the terminal open in the background. Every time you hit `Ctrl + S` (Save), the tool will automatically sync your changes to GitHub.
@@ -66,23 +66,4 @@ If your folder doesn't have a `.git` repository initialized, the tool will autom
 ---
 
 ## 🛑 Stopping the Tool
-To stop the auto-syncing, simply go to the terminal running the process and press `Ctrl + C`.
-
----
-
-## 🐛 Troubleshooting
-
-| Issue | Solution |
-| :--- | :--- |
-| **Tool crashes on startup** | Ensure you are running the command in a regular terminal (Command Prompt, PowerShell, Git Bash) and not a locked "Debug Console" in your IDE. |
-| **"Sync paused" warning** | This usually means your computer lost internet connection, or there is a massive merge conflict that requires manual human intervention. |
-| **Commits are too frequent** | The tool waits 3 seconds after a file changes. If you use "Auto-Save" in VS Code, we recommend turning it off or increasing the delay while using this tool. |
-
----
-
-## 👨‍💻 Author
-Built by [Manfred Siew (ElfredSeow)](https://github.com/ElfredSeow)  
-*Aspiring Software Engineer passionate about building impactful projects and developer tools.*
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+To stop the auto-syncing
