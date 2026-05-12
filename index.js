@@ -96,4 +96,32 @@ function startWatcher(config) {
         clearTimeout(debounceTimer);
         debounceTimer = setTimeout(() => {
             try {
-                console.log(`📦 [${new Date().toLocaleTimeString()}] Change detected in ${
+                console.log(`📦 [${new Date().toLocaleTimeString()}] Change detected in ${path}. Syncing...`);
+                
+                execSync(`git add .`);
+                
+                // FOOL-PROOF: Only commit if there are actual changes (prevents crash if user saves an empty file)
+                try {
+                    execSync(`git commit -m "Auto-sync: ${new Date().toLocaleTimeString()}" --quiet`, { stdio: 'ignore' });
+                } catch (commitErr) {
+                    // Silently ignore if there was nothing new to commit
+                }
+                
+                // FOOL-PROOF: Always pull latest changes from other devices before pushing
+                try {
+                    execSync(`git pull origin ${config.targetBranch} --no-edit --quiet`, { stdio: 'ignore' });
+                } catch (pullErr) {
+                    // Fails silently if offline, will just try to push anyway
+                }
+
+                // Finally, Push
+                execSync(`git push origin ${config.targetBranch} --quiet`);
+                console.log(`✅ Push successful!`);
+            } catch (error) {
+                console.log(`⚠️ Sync paused. (Check your internet or resolve merge conflicts manually)`);
+            }
+        }, 3000); // 3-second delay
+    });
+}
+
+run();
