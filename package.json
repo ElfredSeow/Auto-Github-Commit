@@ -1,6 +1,6 @@
 {
-  "name": "repo-autosync", 
-  "version": "1.0.0",
+  "name": "repo-autosync",
+  "version": "1.0.1",
   "description": "A fool-proof auto-commit tool.",
   "main": "index.js",
   "bin": {
