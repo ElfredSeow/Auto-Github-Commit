@@ -1,0 +1,27 @@
+{
+  "name": "@elfredseow/auto-commit",
+  "version": "1.0.1",
+  "description": "Automatically commit and push edits to the develop branch.",
+  "main": "index.js",
+  "bin": {
+    "auto-commit": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElfredSeow/your-repo-name.git"
+  },
+  "keywords": [
+    "github",
+    "automation",
+    "git",
+    "productivity"
+  ],
+  "author": "Manfred Siew",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}
