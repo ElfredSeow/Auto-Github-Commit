@@ -1,5 +1,5 @@
 {
-  "name": "@elfredseow/auto-commit",
+  "name": "auto-commit",
   "version": "1.0.1",
   "description": "Automatically commit and push edits to the develop branch.",
   "main": "index.js",
