@@ -78,7 +78,7 @@ async function run() {
 }
 
 function startWatcher(config) {
-    console.log(`\n🚀 ELFRED'S AUTO-SYNC IS LIVE`);
+    console.log(`\n🚀 AUTO-SYNC IS LIVE`);
     console.log(`🌿 Branch: ${config.targetBranch}`);
     console.log(`📡 Remote: ${config.repoUrl}`);
     console.log(`------------------------------------------`);
