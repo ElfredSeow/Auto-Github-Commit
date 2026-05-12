@@ -1,2 +1,4 @@
 # Auto-Github-Commit
-Here is a professional, comprehensive README.md template designed to make your tool incredibly easy for anyone to understand and use.You can copy and paste this directly into your README.md file on GitHub.🚀 Auto-GitHub-CommitA "Fool-Proof" Git automation tool that watches your files and instantly syncs your edits to GitHub. Tired of typing git add ., git commit -m "update", and git push every time yo
+Building an automated "auto-commit" tool is a great way to maintain a high-frequency contribution graph, much like the one seen on your GitHub profile, which already shows an impressive 926 contributions this year.
+
+To achieve a workflow where every "save" or "edit" automatically commits and pushes to a develop branch, you have a few different paths depending on your primary development environment.
