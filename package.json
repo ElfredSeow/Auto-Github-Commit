@@ -1,11 +1,12 @@
 {
-  "name": "auto-commit",
-  "version": "1.0.1",
-  "description": "Automatically commit and push edits to the develop branch.",
+  "name": "repo-autosync", 
+  "version": "1.0.0",
+  "description": "A fool-proof auto-commit tool.",
   "main": "index.js",
   "bin": {
-    "auto-commit": "index.js"
-  },
+    "repo-autosync": "./index.js"
+  }
+},
   "publishConfig": {
     "access": "public"
   },
